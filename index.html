@@ -15,17 +15,76 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero-section">
-      <article class="featured-post">
-        <img src="assets/opiniao.jpg" alt="cidade">
-        <div class="overlay">
-          <p class="categoria">opinião</p>
-          <h2>Como é ser um desenvolvedor</h2>
-          <p class="autor">By Fabio Tetsuo</p>
-        </div>
-      </article>
+  <main class="layout">
+    <div class="col-left">
+      <section class="hero-section">
+        <article class="featured-post">
+          <img src="assets/opiniao.jpg" alt="cidade">
+          <div class="overlay">
+            <p class="categoria">opinião</p>
+            <h2>Como é ser um desenvolvedor</h2>
+            <p class="autor">By Fabio Tetsuo</p>
+          </div>
+        </article>
+      </section>
 
+      <section class="posts-section">
+        <article class="recent-posts">
+          <div class="posts-header">
+            <h3>Posts mais recentes</h3>
+            <a href="#" class="ver-todos">Ver todos</a>
+          </div>
+
+          <div class="posts-grid">
+            <div class="post-card">
+              <img src="./assets/post_1.png" alt="Post 1">
+              <div class="post-content">
+                <p class="categoria desenvolvimento">desenvolvimento</p>
+                <h4>Desenvolvimento mobile</h4>
+                <p class="autor">By Fabio Tetsuo</p>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus...</p>
+                <p class="data">22 Agosto 2022</p>
+              </div>
+            </div>
+
+            <div class="post-card">
+              <img src="./assets/post_2.png" alt="Post 2">
+              <div class="post-content">
+                <p class="categoria saude">saude</p>
+                <h4>Balancear vida profissional e pessoal</h4>
+                <p class="autor">By Ridho Satriawan</p>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor...</p>
+                <p class="data">22 Agosto 2022</p>
+              </div>
+            </div>
+
+            <div class="post-card">
+              <img src="./assets/post_3.png" alt="Post 3">
+              <div class="post-content">
+                <p class="categoria desenvolvimento">desenvolvimento</p>
+                <h4>Configurando VSCode</h4>
+                <p class="autor">By Fabio Tetsuo</p>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam...</p>
+                <p class="data">22 Agosto 2022</p>
+              </div>
+            </div>
+
+            <div class="post-card">
+              <img src="./assets/post_4.png" alt="Post 4">
+              <div class="post-content">
+                <p class="categoria produtividade">produtividade</p>
+                <h4>2 monitores ou 1 ultrawide?</h4>
+                <p class="autor">By Fulano da Silva</p>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique...</p>
+                <p class="data">22 Agosto 2022</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <div class="col-right">
       <aside class="sidebar">
         <h3 class="sidebar-title">Posts populares</h3>
         <ul class="popular-list">
@@ -52,20 +111,17 @@
           </li>
         </ul>
       </aside>
-    </section>
 
-<section class="posts-section">
-<article class="featured-post">
-  <h3 class="sidebar-title">Posts mais recentes</h3>
-</article>
-
-<aside class="sidebar">
-  <h3 class="sidebar-title">Categorias</h3>
-
-</aside>
-
-</section>
-
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Categorias</h3>
+        <ul class="category-list">
+          <li><a href="#">> Desenvolvimento</a></li>
+          <li><a href="#">> Produtividade</a></li>
+          <li><a href="#">> Saúde</a></li>
+          <li><a href="#">> Opinião</a></li>
+        </ul>
+      </aside>
+    </div>
   </main>
 
   <footer>
@@ -73,5 +129,4 @@
   </footer>
 
 </body>
-
 </html>
